@@ -2,14 +2,15 @@
   "name": "hello_app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ."
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^4.18.2"
+    "eslint": "^4.18.2",
+    "express": "^4.16.3"
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "^12.1.0",
